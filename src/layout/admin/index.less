@@ -1,0 +1,31 @@
+@import '../../style/default.less';
+.container {
+  .nav-left {
+    background-color: #001529;
+    color: #ffffff;
+    height: 100vh;
+  }
+
+  .main {
+    height: 100vh;
+    background-color: @layout-bg-color;
+    overflow: auto;
+  }
+  .content {
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    max-height: calc(100vh - 60px);
+
+    .content_inner{
+      background: #ffffff;
+      border-radius: 2px;
+      position: relative;
+      font-size: 14px;
+      box-sizing: border-box;
+      padding: 10px;
+      width: 100%;
+    }
+  }
+}
+
